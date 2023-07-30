@@ -7,12 +7,10 @@ def Story1(win):
        But we were not able to play.So, we went to watch the game and our favourite player {playername}.
        We drank {drinkname} and also ate some {snacks} 
        We really enjoyed it! We are looking forward to go again and enjoy '''
-
-    tl.geometry(newGeometry='500x550')
+     tl.geometry(newGeometry='500x550')
 
     Label(tl, text='Story:',  wraplength=tl.winfo_width()).place(x=160, y=310)
     Label(tl, text=text,wraplength=tl.winfo_width()).place(x=0, y=330)
-
   NewScreen = Toplevel(win, bg='yellow')
   NewScreen.title("A Memorable Day")
   NewScreen.geometry('500x500')
